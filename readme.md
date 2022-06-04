@@ -82,7 +82,7 @@ Adding this to the comtek.life [URL](comtek.life//heroes/48-65-61-72-74-62-65-61
 ### 48-65-61-72-74-62-65-61-74.png
 By inverting the colours on this image and rotating 180 degrees, it becomes slightly more legible, and 'heart beat' can be slightly made out
 
-<img src="(48-65-61-72-74-62-65-61-74_inverted.png"  height="250px" width="250px"></img>
+<img src="48-65-61-72-74-62-65-61-74_inverted.png"  height="250px" width="250px"></img>
 
 The name, 48-65-61-72-74-62-65-61-74, is also a hexadecmial string that translates to 'heartbeat'
 
@@ -104,7 +104,7 @@ OPENSTEGO IMAGE
 
 This succeeds, and reveals the hidden image; a full resolution copy of the 'Heartbeat' image 
 
-<img srg="Heartbeat.jpg" height="250px" width="250px"></img>
+<img src="Heartbeat.jpg" height="250px" width="250px"></img>
 
 LostBoy then replies to their earlier tweet, confirming this was solved
 
