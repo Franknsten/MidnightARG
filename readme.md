@@ -163,7 +163,8 @@ Decoding the text reveals song lyrics
 
 >If the world is made out of us,\
 >All our shadows suggest a sun\
->Every desert heart that wants the flood Come and bring your need\
+>Every desert heart that wants the flood\
+>Come and bring your need\
 >There is love enough
 
 >Keep going ‘cause we can’t go back\
