@@ -1,5 +1,5 @@
 # Overview
-- [x] [Solve riddle on old *Monsters* Interface](#riddle) 
+- [x] [Solve riddle on old *Monsters* Interface](#first-riddle) 
 - [x] Find metadata of Fire.mp4
 - [x] Extract message from gifshuffle_talia_holds_the_key.gif
 - [x] Extract image from 48-65-61-72-74-62-65-61-74.png
@@ -14,7 +14,7 @@ It had been updated, showing a Unix interface.
 ![Updated home page](monsters_home_1.jpg)
 
 A riddle was provided
-## [riddle] First Riddle
+## First Riddle
 One of the final lines of the page was a riddle
 
 >https://183010165.com/mdnght/I'm at the centre of your blue heart. A drink will kill me. What am I? mp4-include InRelease
