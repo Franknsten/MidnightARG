@@ -9,7 +9,13 @@ Twitter user @lost_boy84 [posted](https://twitter.com/lost_boy84/status/15313465
 
 Users viewed [website](https://183010165.com/) previously used for ARG.
 
-It had been updated, showing a Unix interface. 
+It had been updated, showing a Unix interface. The interface needed a specific update command to be entered to get the right output. 
+
+![Original home screen](monsters_first_home.jpg)
+
+`sudo apt full-upgrade -y`
+
+This command runs an update package that provides an error message
 
 ![Updated home page](monsters_home_1.jpg)
 
@@ -39,9 +45,9 @@ Opening fire.mp4 in a text editor reveals metadata (information about the file)
 
 Golden Gate is a [song](https://www.youtube.com/watch?v=1UXLyW6N9LQ) by Tyler Lyle, and the audio in the video sounds like a synth cover of that. The Midnight has covered Lyles music before, with Brooklyn ([Lyle](https://www.youtube.com/watch?v=tg3YLGiDG9M), [The Midnight](https://www.youtube.com/watch?v=8Ey30-sYvuU)) and Lost & Found ([Lyle](https://www.youtube.com/watch?v=ZHhZPomMNlo), [The Midnight](https://www.youtube.com/watch?v=vDNG5AkNfcs))
 
-heroes-bg-notext.png is not a known reference like this
+heroes-bg-notext.png is not a known reference like this, but is suspected to be named in designer shorthand for the background art (bg) of the next album (Heroes, not confirmed), and might be important
 
-# Phase II - June 1 2022 #
+# Phase II - June 1 2022 
 The old website has an update available. 
 
 ![Monsters page prompting to run update](monsters_update.jpg)
@@ -62,7 +68,7 @@ Using the 'inspect element' feature of the browser, the name of this gif can be 
 
 ![Gif in inspect element](gif_name.jpg)
 
-Talian here is a reference to Discord user Talian, who was the first to find the metadata in fire.mp4 and alert the chat
+Talian here is a reference to Discord user Talian, who was the first to find the metadata in fire.mp4 and alert the chat. The team behind the ARG are known to monitor the Discord, explaining the inclusion of this.
 
 ![Talian finds the metadata](talian_discord_message.jpg)
 
