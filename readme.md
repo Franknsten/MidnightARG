@@ -1,9 +1,9 @@
 # Overview
 - [x] [Solve riddle on old *Monsters* Interface](#first-riddle) 
-- [x] Find metadata of Fire.mp4
-- [x] Extract message from gifshuffle_talia_holds_the_key.gif
-- [x] Extract image from 48-65-61-72-74-62-65-61-74.png
-- [x] Decrypt console output to view song lyrics
+- [x] [Find metadata of Fire.mp4](#fire.mp4)
+- [x] [Extract message from gifshuffle_talia_holds_the_key.gif](#main-gif)
+- [x] [Extract image from 48-65-61-72-74-62-65-61-74.png](#48-65-61-72-74-62-65-61-74.png)
+- [x] [Decrypt console output to view song lyrics](#presave-link)
 # PHASE I
 Twitter user @lost_boy84 [posted](https://twitter.com/lost_boy84/status/1531346528782237702) a burning heart emoji, the first tweet since 2020
 
