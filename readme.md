@@ -2,7 +2,7 @@
 - [x] [Solve riddle on old *Monsters* Interface](#first-riddle) 
 - [x] [Find metadata of Fire.mp4](#firemp4)
 - [x] [Extract message from gifshuffle_talia_holds_the_key.gif](#main-gif)
-- [x] [Extract image from 48-65-61-72-74-62-65-61-74.png](#48-65-61-72-74-62-65-61-74png)
+- [x] [Extract image from 48-65-61-72-74-62-65-61-74.png](#decyphering-image)
 - [x] [Decrypt console output to view song lyrics](#presave-link)
 # PHASE I
 Twitter user @lost_boy84 [posted](https://twitter.com/lost_boy84/status/1531346528782237702) a burning heart emoji, the first tweet since 2020
@@ -78,7 +78,7 @@ Adding this to the comtek.life [URL](comtek.life//heroes/48-65-61-72-74-62-65-61
 
 <img src="48-65-61-72-74-62-65-61-74.png" height="250px" width="250px"></img>
 
-### 48-65-61-72-74-62-65-61-74.png
+### Decyphering Image
 By inverting the colours on this image and rotating 180 degrees, it becomes slightly more legible, and 'heart beat' can be slightly made out
 
 <img src="48-65-61-72-74-62-65-61-74_inverted.png"  height="250px" width="250px"></img>
