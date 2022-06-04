@@ -129,24 +129,24 @@ Decoding the text reveals song lyrics
 >Everybody wants to walk away sometimes\
 >Some believe they can fly\
 >Either way,\
->Coming down is still a hell of a ride\
+>Coming down is still a hell of a ride
 
 >If you can feel your heartbeat\
 >You’re not done yet\
 >You can’t be\
 >If it hurts, it’s working\
 >There is love enough\
->For you and me\
+>For you and me
 
 >If the world is made out of love\
 >Then a heart can change in anyone\
 >I was nearly dead when you shared your cup\
->You’re the proof to me there is love enough\
+>You’re the proof to me there is love enough
 
 >Everybody wants to walk away sometimes\
 >Fools believe they can fly\
 >Either way\
->Coming down is still a hell of a ride\
+>Coming down is still a hell of a ride
 
 >If you can feel your heartbeat\
 >You’re not done yet\
@@ -162,23 +162,23 @@ Decoding the text reveals song lyrics
 >For you and me
 
 >If the world is made out of us,\
->All our shadows suggest a sun 
->Every desert heart that wants the flood Come and bring your need 
+>All our shadows suggest a sun\
+>Every desert heart that wants the flood Come and bring your need\
 >There is love enough
 
->Keep going ‘cause we can’t go back
->Keep going ‘cause we can’t go back
->Keep going ‘cause we can’t go back 
+>Keep going ‘cause we can’t go back\
+>Keep going ‘cause we can’t go back\
+>Keep going ‘cause we can’t go back\
 
->If you can feel your heartbeat
->You’re not done yet 
->You can’t be 
->If it hurts, it’s working 
->There is love enough 
+>If you can feel your heartbeat\
+>You’re not done yet\
+>You can’t be\
+>If it hurts, it’s working\
+>There is love enough\
 >For you and me
 
->If you can feel your heartbeat
->You’re not done yet
->Just keep going
->There is love enough
+>If you can feel your heartbeat\
+>You’re not done yet\
+>Just keep going\
+>There is love enough\
 >For you and me
