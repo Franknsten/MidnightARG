@@ -48,7 +48,7 @@ Golden Gate is a [song](https://www.youtube.com/watch?v=1UXLyW6N9LQ) by Tyler Ly
 heroes-bg-notext.png is not a known reference like this, but is suspected to be named in designer shorthand for the background art (bg) of the next album (Heroes, not confirmed), and might be important
 
 # Phase II - June 1 2022 
-The old website has an update available. 
+The old website has an update available, and the text has changed slightly from 'New Release' to 'Hot Fix'
 
 ![Monsters page prompting to run update](monsters_update.jpg)
 
