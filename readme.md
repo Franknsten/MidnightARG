@@ -99,9 +99,10 @@ The use of 'stego' here is a hint at 'steganography', the process of hiding cont
 
 [OpenStego](https://www.openstego.com/) is a free tool available to extract data hidden in images, but it needs a password. The text in the image, as well as the filename, are both 'heartbeat' which is worth trying
 
-OPENSTEGO IMAGE
+![Using openStego](openstego.jpg)
 
-This succeeds, and reveals the hidden image; a full resolution copy of the 'Heartbeat' image 
+
+This succeeds, and reveals the hidden image; a full resolution copy of the 'Heartbeat' image. This will be saved to the output folder, the desktop in this case.
 
 <img src="Heartbeat.jpg" height="250px" width="250px"></img>
 
