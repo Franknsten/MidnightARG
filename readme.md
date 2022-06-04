@@ -121,10 +121,10 @@ This text can be reversed, and decoded as Base64 ([online tools](https://www.bas
 
 Decoding the text reveals song lyrics
 
->If the world is made out of love 
->Then the pain is proof that it isn’t done
->When you’re empty you can use me up
->You won’t run out there is love enough 
+>If the world is made out of love\ 
+>Then the pain is proof that it isn’t done\
+>When you’re empty you can use me up\
+>You won’t run out there is love enough\
 
 >Everybody wants to walk away sometimes
 >Some believe they can fly
