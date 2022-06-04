@@ -25,9 +25,7 @@ Unsure what 'blue heart' refers to, but 'a drink will kill me' refers to water p
 The solution was to add 'fire.mp4' to the clue URL (clueRL?)
 >https://183010165/mdnght/fire.mp4
 
-<video width="540" height="540" controls>
-  <source src="fire.mp4" type="video/mp4">
-Your browser does not support the video tag.
+<video src="https://user-images.githubusercontent.com/6541033/171990189-6d677f2d-d14c-4028-9516-c934fd6151bc.mp4">
 </video>
 
 note: Is now at https://183010165.com/fire.mp4, not clear why it was moved
