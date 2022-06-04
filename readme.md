@@ -35,6 +35,7 @@ note: Is now at https://183010165.com/fire.mp4, not clear why it was moved
 Opening fire.mp4 in a text editor reveals metadata (information about the file)
 * Audio is `01_Golden Gate (Instrumental)_24bit_96kHz_Final_Master_3.18.22_LS_Edit.wav`
 *  `heroes-bg-notext.png` is referenced
+
 ![Fire.mp4 metadata](fire_metadata.jpg)
 
 Golden Gate is a [song](https://www.youtube.com/watch?v=1UXLyW6N9LQ) by Tyler Lyle, and the audio in the video sounds like a synth cover of that. The Midnight has covered Lyles music before, with Brooklyn ([Lyle](https://www.youtube.com/watch?v=tg3YLGiDG9M), [The Midnight](https://www.youtube.com/watch?v=8Ey30-sYvuU)) and Lost & Found ([Lyle](https://www.youtube.com/watch?v=ZHhZPomMNlo), [The Midnight](https://www.youtube.com/watch?v=vDNG5AkNfcs))
@@ -43,22 +44,29 @@ heroes-bg-notext.png is not a known reference like this
 
 # Phase II - June 1 2022 #
 The old website has an update available. 
+
 ![Monsters page prompting to run update](monsters_update.jpg)
 
 *This command is similar to the update command on Linux systems, `sudo apt-get update`, as a fun aside*
 
 Running the command takes you to [a new website](comtek.life) advertising an unknown upcoming release by The Midnight
+
 ![Comtek Life homepage](comtek_home.jpg)
+
 Several things were found in here
 ## Comtek Homepage Info
 ### Main Gif
 The gif on the page is seen glitching stylistically
 ![Glitching Gif](gifshuffle_talian_holds_the_key.gif)
+
 Using the 'inspect element' feature of the browser, the name of this gif can be seen as `gifshuffle_talian_holds_the_key.gif`
 
 ![Gif in inspect element](gif_name.jpg)
+
 Talian here is a reference to Discord user Talian, who was the first to find the metadata in fire.mp4 and alert the chat
+
 ![Talian finds the metadata](talian_discord_message.jpg)
+
 Gifshuffle is the name of a command line utility, included in Ubuntu (more info [here](http://manpages.ubuntu.com/manpages/bionic/man1/gifshuffle.1.html)). Gifshuffle is used to hide messages in gif files, and the inclusion of it in the name here suggests it needs to be used to extract the message.
 
 Part of the metadata is 'heroes-bg-notext.png', which seems unrelated to anything seen so far.
@@ -68,19 +76,24 @@ Running the command
 >/heroes/48-65-61-72-74-62-65-61-74.png
 
 Adding this to the comtek.life [URL](comtek.life//heroes/48-65-61-72-74-62-65-61-74.png) provides you with an image
+
 ![Revealed image](48-65-61-72-74-62-65-61-74.png)
 
 ### 48-65-61-72-74-62-65-61-74.png
 By inverting the colours on this image and rotating 180 degrees, it becomes slightly more legible, and 'heart beat' can be slightly made out
+
 ![altered image](48-65-61-72-74-62-65-61-74_inverted.png)
 
 The name, 48-65-61-72-74-62-65-61-74, is also a hexadecmial string that translates to 'heartbeat'
+
 ![Decoding the hex](hex_decode.jpg)
 
 The LostBoy account tweeted a hint that something was yet to be discovered
+
 ![LostBoy hint](lostboy_lookCloser.jpg)
 
 Tyler Lyle tweeted a clue out to assist in the next step of this clue
+
 ![Tyler Tweeting](tyler_clue.jpg)
 
 The use of 'stego' here is a hint at 'steganography', the process of hiding content within other content, much like the Gifshuffle tool earlier. 
@@ -90,10 +103,13 @@ The use of 'stego' here is a hint at 'steganography', the process of hiding cont
 OPENSTEGO IMAGE
 
 This succeeds, and reveals the hidden image; a full resolution copy of the 'Heartbeat' image 
+
 ![Heatbeat full image](Heartbeat.jpg)
 
 LostBoy then replies to their earlier tweet, confirming this was solved
+
 ![LostBoy confirmation](lostboy_nowYouSee.jpg)
+
 ### Presave Link
 By clicking the Presave bar in the middle of the screen, a long string is output to the browser console. This can be viewed through inspect element
 ![Console Output](console_output.jpg)
