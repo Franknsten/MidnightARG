@@ -77,7 +77,7 @@ Running the command
 
 Adding this to the comtek.life [URL](comtek.life//heroes/48-65-61-72-74-62-65-61-74.png) provides you with an image
 
-![Revealed image](48-65-61-72-74-62-65-61-74.png | 50)
+![Revealed image](48-65-61-72-74-62-65-61-74.png | width=50)
 
 ### 48-65-61-72-74-62-65-61-74.png
 By inverting the colours on this image and rotating 180 degrees, it becomes slightly more legible, and 'heart beat' can be slightly made out
