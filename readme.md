@@ -26,7 +26,7 @@ The solution was to add 'fire.mp4' to the clue URL (clueRL?)
 >https://183010165/mdnght/fire.mp4
 
 <video width="540" height="540" controls>
-  <source src="(https://183010165.com/fire.mp4" type="video/mp4">
+  <source src="fire.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
