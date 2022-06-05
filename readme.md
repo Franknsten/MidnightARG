@@ -31,13 +31,15 @@ There are two clues to the answer here
 
 Refers to the Change Your Heart Or Die vinyl record, which is blue, and has the word 'fire' etched into the center
 
+![CYHOD Vinyl Center](heart_fire.jpg)
+
+*Image courtesy of Discord user cpsedmonds*
+
 >A drink will kill me. What am I?
 
 Is an old riddle. Adding water to fire will kill it, giving the answer 'fire' again.
 
-![CYHOD Vinyl Center](heart_fire.jpg)
 
-*Image courtesy of Discord user cpsedmonds*
 
 The solution was to add 'fire.mp4' to the clue URL (clueRL?)
 >https://183010165/mdnght/fire.mp4
