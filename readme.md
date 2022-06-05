@@ -25,8 +25,19 @@ One of the final lines of the page was a riddle
 
 >https://183010165.com/mdnght/I'm at the centre of your blue heart. A drink will kill me. What am I? mp4-include InRelease
 
+There are two clues to the answer here
 
-Unsure what 'blue heart' refers to, but 'a drink will kill me' refers to water putting a fire out, so fire is the answer
+> I'm at the centre of your blue heart
+
+Refers to the Change Your Heart Or Die vinyl record, which is blue, and has the word 'fire' etched into the center
+
+>A drink will kill me. What am I?
+
+Is an old riddle. Adding water to fire will kill it, giving the answer 'fire' again.
+
+![CYHOD Vinyl Center](heart_fire.jpg)
+
+*Image courtesy of Discord user cpsedmonds*
 
 The solution was to add 'fire.mp4' to the clue URL (clueRL?)
 >https://183010165/mdnght/fire.mp4
