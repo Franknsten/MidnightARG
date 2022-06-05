@@ -65,7 +65,7 @@ The old website has an update available, and the text has changed slightly from 
 
 ![Monsters page prompting to run update](monsters_update.jpg)
 
-*This command is similar to the update command on Linux systems, `sudo apt-get update`, as a fun aside*
+This is a [unix command](https://www.freecodecamp.org/news/sudo-apt-get-update-vs-upgrade-what-is-the-difference/) used to upgrade packages on a system
 
 Running the command takes you to [a new website](comtek.life) advertising an unknown upcoming release by The Midnight
 
