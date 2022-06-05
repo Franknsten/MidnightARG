@@ -56,7 +56,7 @@ Opening fire.mp4 in a text editor reveals metadata (information about the file)
 
 ![Fire.mp4 metadata](fire_metadata.jpg)
 
-Golden Gate is a [song](https://www.youtube.com/watch?v=1UXLyW6N9LQ) by Tyler Lyle, and the audio in the video sounds like a synth cover of that. The Midnight has covered Lyles music before, with Brooklyn ([Lyle](https://www.youtube.com/watch?v=tg3YLGiDG9M), [The Midnight](https://www.youtube.com/watch?v=8Ey30-sYvuU)) and Lost & Found ([Lyle](https://www.youtube.com/watch?v=ZHhZPomMNlo), [The Midnight](https://www.youtube.com/watch?v=vDNG5AkNfcs))
+Golden Gate is a [song](https://www.youtube.com/watch?v=1UXLyW6N9LQ) by Tyler Lyle, and the audio in the video sounds like a synth cover of that. The Midnight has covered Lyles music before, with Brooklyn ([Lyle](https://www.youtube.com/watch?v=tg3YLGiDG9M), [The Midnight](https://www.youtube.com/watch?v=8Ey30-sYvuU)) and Lost & Found ([Lyle](https://www.youtube.com/watch?v=ZHhZPomMNlo), [The Midnight](https://www.youtube.com/watch?v=vDNG5AkNfcs)). The cover of Golden Gate* was included as a secret track in the *Change Your Heart Or Die* [vinyl release](https://www.reddit.com/r/TheMidnight/comments/utuvmq/not_sure_if_this_is_common_knowledge_yet_but/)
 
 heroes-bg-notext.png is not a known reference like this, but is suspected to be named in designer shorthand for the background art (bg) of the next album (Heroes, not confirmed), and might be important
 
