@@ -42,7 +42,7 @@ Is an old riddle. Adding water to fire will kill it, giving the answer 'fire' ag
 The solution was to add 'fire.mp4' to the clue URL (clueRL?)
 >https://183010165/mdnght/fire.mp4
 
-<video src="https://user-images.githubusercontent.com/6541033/171990189-6d677f2d-d14c-4028-9516-c934fd6151bc.mp4">
+<video src="https://user-images.githubusercontent.com/6541033/171990189-6d677f2d-d14c-4028-9516-c934fd6151bc.mp4" controls>
 </video>
 
 note: Is now at https://183010165.com/fire.mp4, not clear why it was moved
