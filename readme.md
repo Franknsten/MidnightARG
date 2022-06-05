@@ -102,7 +102,7 @@ By inverting the colours on this image and rotating 180 degrees, it becomes slig
 
 <img src="48-65-61-72-74-62-65-61-74_inverted.png"  height="250px" width="250px"></img>
 
-The name, 48-65-61-72-74-62-65-61-74, is also a hexadecmial string that translates to 'heartbeat'
+The name, 48-65-61-72-74-62-65-61-74, is also a hexadecmial string that translates to 'heartbeat'. This decoding can be done using online [tools](http://www.unit-conversion.info/texttools/hexadecimal/).
 
 ![Decoding the hex](hex_decode.jpg)
 
