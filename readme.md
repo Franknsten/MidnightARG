@@ -1,9 +1,14 @@
 # Overview
+## Solved
 - [x] [Solve riddle on old *Monsters* Interface](#first-riddle) 
 - [x] [Find metadata of Fire.mp4](#firemp4)
 - [x] [Extract message from gifshuffle_talia_holds_the_key.gif](#main-gif)
 - [x] [Extract image from 48-65-61-72-74-62-65-61-74.png](#decyphering-image)
 - [x] [Decrypt console output to view song lyrics](#presave-link)
+
+## Unsolved
+- [ ] [Coming June 8](#lostboy-video)
+- [ ] Significance of 05.08.2022 (August 5th) mentioned in MONSTERS OS page
 # PHASE I
 Twitter user @lost_boy84 [posted](https://twitter.com/lost_boy84/status/1531346528782237702) a burning heart emoji, the first tweet since 2020
 
@@ -202,3 +207,18 @@ Decoding the text reveals song lyrics
 >Just keep going\
 >There is love enough\
 >For you and me
+
+## Heartbeat release
+June 6th, LostBoy [tweets](https://twitter.com/lost_boy84/status/1533523657498034177) a link to comtek.life, with an attached video
+
+<video src="https://user-images.githubusercontent.com/6541033/172073978-52ef7203-805f-4ae1-8701-db246010d541.mp4" controls>
+</video>
+
+After several days of, the comtek.life page updated to link to the *Heroes* album [information page](https://themidnight.lnk.to/heroes), and now redirects to this automatically
+
+### LostBoy Video
+Yet to be understood:
+- [ ] If the 'Comtek X-MP' is a significant reference to the Cray [supercomputer](https://en.wikipedia.org/wiki/Cray_X-MP)
+- [ ] If the repeated 'I <3 NY' images are relevant
+- [X] ~~What the audio is~~ Backing track is Heartbeat
+- [X] ~~What is coming on June 8th. Suspected to be *Heartbeart*, given the cover & lyrics revealed so far~~ Heartbeat was released
