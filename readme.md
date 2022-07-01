@@ -9,7 +9,7 @@
 ## Unsolved
 - [ ] Significance of 05.08.2022 (August 5th) mentioned in MONSTERS OS page
 - [ ] Significance of 06.07.2022 (July 6th) mentioned in Comtek.Life update
-- [ ] What cipher/key is needed to decode [avalanche_intro.enc](#avalanche_intro.enc)
+- [ ] What cipher/key is needed to decode [avalanche_intro.enc](#avalancheintroenc)
 # PHASE I
 Twitter user @lost_boy84 [posted](https://twitter.com/lost_boy84/status/1531346528782237702) a burning heart emoji, the first tweet since 2020
 
