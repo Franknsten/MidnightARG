@@ -232,8 +232,8 @@ The Comtek.life homepage has been updated, featuring a new version number and a 
 
 ### YouTube Video
 The ID can be added to youtube.com/watch?v= to view
-<iframe width="1049" height="599" src="https://www.youtube.com/embed/FpskTb9RiE4" title="01000001 01110110 01100001 01101100 01100001 01101110 01100011 01101000 01100101" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+[![comtekvideo](comtek_video.jpg)](https://www.youtube.com/watch?v=FpskTb9RiE4)
 The name, 01000001 01110110 01100001 01101100 01100001 01101110 01100011 01101000 01100101, can be decoded from binary to read 'Avalanche'
 
 ![Avalanche decode](binary_avalanche.jpg)
