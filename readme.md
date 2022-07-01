@@ -7,8 +7,9 @@
 - [x] [Decrypt console output to view song lyrics](#presave-link)
 
 ## Unsolved
-- [ ] [Coming June 8](#lostboy-video)
 - [ ] Significance of 05.08.2022 (August 5th) mentioned in MONSTERS OS page
+- [ ] Significance of 06.07.2022 (July 6th) mentioned in Comtek.Life update
+- [ ] What cipher/key is needed to decode [avalanche_intro.enc](avalanche_intro.enc)
 # PHASE I
 Twitter user @lost_boy84 [posted](https://twitter.com/lost_boy84/status/1531346528782237702) a burning heart emoji, the first tweet since 2020
 
@@ -222,3 +223,53 @@ Yet to be understood:
 - [ ] If the repeated 'I <3 NY' images are relevant
 - [X] ~~What the audio is~~ Backing track is Heartbeat
 - [X] ~~What is coming on June 8th. Suspected to be *Heartbeart*, given the cover & lyrics revealed so far~~ Heartbeat was released
+
+## Phase III
+### Homepage Update
+The Comtek.life homepage has been updated, featuring a new version number and a new release date. The new date is for July 6th, and the version number is a youtube video ID
+
+![updated home](comtek_life_update.jpg)
+
+### YouTube Video
+The ID can be added to youtube.com/watch?v= to view
+<iframe width="1049" height="599" src="https://www.youtube.com/embed/FpskTb9RiE4" title="01000001 01110110 01100001 01101100 01100001 01101110 01100011 01101000 01100101" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The name, 01000001 01110110 01100001 01101100 01100001 01101110 01100011 01101000 01100101, can be decoded from binary to read 'Avalanche'
+
+![Avalanche decode](binary_avalanche.jpg)
+
+Extracting the audio from the video and viewing it through a spectrogram, you can do this with Audacity, reveals the message 'Who Are Comtek Enterprises"
+
+![Spectogram](comtek_spectogram.jpg)
+
+Following this, LostBoy tweets asking to know more about this 'organisation'
+
+![lostboy tweets](lostboy_comtek.jpg)
+
+the '.org' top-level domain (TLD) is used for organisations. Using this, the website 'comtekenterprises.org' is found
+
+### ComtekEnterprises
+The homepage is just a gif
+
+![comtek homepage](COMTEK_ENTERPRISES.gif)
+
+Inspecting the page, in a browser like chrome, reveals a comment.
+
+![comment on homepage](comtek_comment.jpg)
+
+Adding this to the URL gives an [image](https://comtekenterprises.org/heroes/avalanche.jpg), avalanche.jpg
+
+<img src="avalanche.jpg" height="250px" width="250px"></img>
+
+The bottom right corner of the image holds a QR code
+
+![QR Code](avalanche_qr.jpg)
+
+When scanned, this gives the URL https://comtekenterprises.org/6176616C616E636865/avalanche_intro.enc
+
+The directory used here, 6176616C616E636865, is the Hexadecmial equivalent of 'avalanche'
+
+### Avalanche_Intro.enc
+This file is encrypted. Running the 'file' utility on it, in Linux, reveals it is an OpenSSL file with salted password
+
+![File Output](avalance_intro_file_check.jpg)
