@@ -26,6 +26,7 @@ Phase III
 - [ ] Significance of 06.07.2022 (July 6th) mentioned in Comtek.Life update
 - [ ] Significance of 05.08.2022 (August 5th) mentioned in MONSTERS OS page
 - [ ] [Album Artwork code](#hidden-message)
+- [ ] Whether or not 'sail on in my memory' from [avalanche.jpg](#comtekenterprises-website) is anything of value
 
 
 # PHASE I
