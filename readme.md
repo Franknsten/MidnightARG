@@ -1,15 +1,24 @@
 # Overview
 ## Solved
+Phase I
 - [x] [Solve riddle on old *Monsters* Interface](#first-riddle) 
 - [x] [Find metadata of Fire.mp4](#firemp4)
+
+Phase II
 - [x] [Extract message from gifshuffle_talia_holds_the_key.gif](#main-gif)
 - [x] [Extract image from 48-65-61-72-74-62-65-61-74.png](#decyphering-image)
 - [x] [Decrypt console output to view song lyrics](#presave-link)
 
+Phase III
+- [x] Find YouTube Video
+- [x] Find Avalanche.jpg
+- [x] Find and decrypt avalanche_intro.enc
+
 ## Unsolved
-- [ ] Significance of 05.08.2022 (August 5th) mentioned in MONSTERS OS page
 - [ ] Significance of 06.07.2022 (July 6th) mentioned in Comtek.Life update
-- [ ] What cipher/key is needed to decode [avalanche_intro.enc](#avalancheintroenc)
+- [ ] Significance of 05.08.2022 (August 5th) mentioned in MONSTERS OS page
+- [ ] Album Artwork code
+
 # PHASE I
 Twitter user @lost_boy84 [posted](https://twitter.com/lost_boy84/status/1531346528782237702) a burning heart emoji, the first tweet since 2020
 
@@ -224,6 +233,15 @@ Yet to be understood:
 - [X] ~~What the audio is~~ Backing track is Heartbeat
 - [X] ~~What is coming on June 8th. Suspected to be *Heartbeart*, given the cover & lyrics revealed so far~~ Heartbeat was released
 
+### Heartbeat
+The new single, *Heartbeat* is released on streaming platofrms, and a [video](https://www.youtube.com/watch?v=mcnqKWkZ9x4) is uploaded to YouTube.  This video features a TV frequently changing channels, visible in the top-right corner:
+
+>48 12 07 55 36 55 36 07 12 48 36 48 36 19 12 03
+
+It is unclear what, if any, significance these numbers have at this point
+
+>Update: They are [used to decrypt](avalanche_intro.enc) a file released in Phase III
+
 ## Phase III
 ### Homepage Update
 The Comtek.life homepage has been updated, featuring a new version number and a new release date. The new date is for July 6th, and the version number is a youtube video ID
@@ -270,6 +288,45 @@ When scanned, this gives the URL https://comtekenterprises.org/6176616C616E63686
 The directory used here, 6176616C616E636865, is the Hexadecmial equivalent of 'avalanche'
 
 ### Avalanche_Intro.enc
-This file is encrypted. Running the 'file' utility on it, in Linux, reveals it is an OpenSSL file with salted password
+This file is encrypted. Running the `file` utility on it, in Linux, reveals it is an OpenSSL file with salted password
 
 ![File Output](avalance_intro_file_check.jpg)
+
+OpenSSL requires a key to decode files. LostBoy [tweets](https://twitter.com/lost_boy84/status/1542880355136311301) a hint about 'staying on the one channel'
+
+![Channel Hint](lostboy_channel.jpg)
+
+This refers to the channel numbers seen in the previous stage, in the Hearbeat video
+
+The command to decrypt the file is
+
+`openssl enc -aes-256-cbc -md md5 -d -in avalanche_intro.enc -out avalanche_intro -pass pass:48120755365536071248364836191203`
+
+A breakdown of this is:\
+**openssl** - the command line tool\
+**enc** - working in enc mode\
+**-aes-256-cbc** - specifying the cipher to be used<sup>1</sup>\
+**-md md5** - the md flag is the 'message digest', which we set to md5<sup>2</sup>\
+**-d** - set to decrypt mode
+**-in avalanche_intro.enc** - specify the input file, the encrypted one\
+**-out avalanche_intro** - specify where the output should be saved\
+**-pass pass:48120755365536071248364836191203** - specify the password, the `pass:` part is to tell the program you're using a passphrase, rather than a file or certificate\
+
+1. This is the default cipher for OpenSSL, and was an educated guess\
+2. This was a quirk of luck. A discord user just happened to be using a version of OpenSSL where md5 was the default, and it wasn't specified. Nothing, to date, indicated this was needed, as the default is SHA256
+
+Running this command gives no errors. 
+
+![First decrypt](avalanche_decrypt_1.jpg)
+
+Running `file` on the output reveals it has MP3 header information
+
+![File Output](avalanche_decrypt_2.jpg)
+
+The .mp3 extension can be added to view the song properties and play it in your choice of MP3 Player
+
+![Avalanche properties](avalanche_properties.jpg)
+
+# Misc
+## Hidden Message
+The album artwork has a secret code visible in it, which was decoded to 'whatever'. This has yet to come into play, but LostBoy responded to it when tweeted at
