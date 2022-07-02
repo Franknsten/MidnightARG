@@ -10,14 +10,14 @@ Phase II
 - [x] [Decrypt console output to view song lyrics](#presave-link)
 
 Phase III
-- [x] Find YouTube Video
-- [x] Find Avalanche.jpg
-- [x] Find and decrypt avalanche_intro.enc
+- [x] [Find YouTube Video](#youtube-video)
+- [x] [Find Avalanche.jpg](#comtekenterprises)
+- [x] [Find and decrypt avalanche_intro.enc](#avalancheintroenc)
 
 ## Unsolved
 - [ ] Significance of 06.07.2022 (July 6th) mentioned in Comtek.Life update
 - [ ] Significance of 05.08.2022 (August 5th) mentioned in MONSTERS OS page
-- [ ] Album Artwork code
+- [ ] [Album Artwork code](#hidden-message)
 
 # PHASE I
 Twitter user @lost_boy84 [posted](https://twitter.com/lost_boy84/status/1531346528782237702) a burning heart emoji, the first tweet since 2020
@@ -329,4 +329,10 @@ The .mp3 extension can be added to view the song properties and play it in your 
 
 # Misc
 ## Hidden Message
-The album artwork has a secret code visible in it, which was decoded to 'whatever'. This has yet to come into play, but LostBoy responded to it when tweeted at
+The album artwork has a secret code visible in it, which was decoded to 'see you on this other side'. 
+
+![Hidden Message](heroes_hidden_message.png)
+
+This has yet to come into play, but LostBoy responded to it when tweeted at
+
+![LostBoy Tweeting](lostboy_hidden_message_tweet.jpg)
