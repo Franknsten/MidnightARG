@@ -11,13 +11,19 @@ Phase II
 
 Phase III
 - [x] [Find YouTube Video](#youtube-video)
-- [x] [Find Avalanche.jpg](#comtekenterprises)
+- [x] [Find Avalanche.jpg](#comtekenterprises-website)
 - [x] [Find and decrypt avalanche_intro.enc](#avalancheintroenc)
 
 ## Unsolved
 - [ ] Significance of 06.07.2022 (July 6th) mentioned in Comtek.Life update
 - [ ] Significance of 05.08.2022 (August 5th) mentioned in MONSTERS OS page
 - [ ] [Album Artwork code](#hidden-message)
+
+# ComTek
+Not much is known about this entity/organisation. What we do know is:
+* comtek.life was the first website found for them. This had hidden files relating to *Heartbeat*, the second single from *Heroes*. It now redirects to the presave information
+* comtekenterprises.org was the second website discovered. This currently has a gif for a homepage, and hidden files relating to *Avalanche*, an as-yet unreleased song from *Heroes*
+* A YouTube [channel](https://www.youtube.com/channel/UCKlTmO6Y4rtPxcVCLDnEIWQ) was discovered, currently one unlisted video is known
 
 # PHASE I
 Twitter user @lost_boy84 [posted](https://twitter.com/lost_boy84/status/1531346528782237702) a burning heart emoji, the first tweet since 2020
@@ -266,7 +272,7 @@ Following this, LostBoy tweets asking to know more about this 'organisation'
 
 the '.org' top-level domain (TLD) is used for organisations. Using this, the website 'comtekenterprises.org' is found
 
-### ComtekEnterprises
+### ComtekEnterprises Website
 The homepage is just a gif
 
 ![comtek homepage](COMTEK_ENTERPRISES.gif)
