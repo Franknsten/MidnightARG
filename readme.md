@@ -1,4 +1,12 @@
 # Overview
+## Contents
+* [Solved Puzzles](#solved)
+* [Unsolved Puzzles](#unsolved)
+* [Phase I](#phasei)
+* [Phase II](#phaseii)
+* [Phase III](#phaseiii)
+* [Miscelaneous Information](#misc)
+* [ComTek Information](#comtek)
 ## Solved
 Phase I
 - [x] [Solve riddle on old *Monsters* Interface](#first-riddle) 
@@ -19,11 +27,6 @@ Phase III
 - [ ] Significance of 05.08.2022 (August 5th) mentioned in MONSTERS OS page
 - [ ] [Album Artwork code](#hidden-message)
 
-# ComTek
-Not much is known about this entity/organisation. What we do know is:
-* comtek.life was the first website found for them. This had hidden files relating to *Heartbeat*, the second single from *Heroes*. It now redirects to the presave information
-* comtekenterprises.org was the second website discovered. This currently has a gif for a homepage, and hidden files relating to *Avalanche*, an as-yet unreleased song from *Heroes*
-* A YouTube [channel](https://www.youtube.com/channel/UCKlTmO6Y4rtPxcVCLDnEIWQ) was discovered, currently one unlisted video is known
 
 # PHASE I
 Twitter user @lost_boy84 [posted](https://twitter.com/lost_boy84/status/1531346528782237702) a burning heart emoji, the first tweet since 2020
@@ -342,3 +345,9 @@ The album artwork has a secret code visible in it, which was decoded to 'see you
 This has yet to come into play, but LostBoy responded to it when tweeted at
 
 ![LostBoy Tweeting](lostboy_hidden_message_tweet.jpg)
+
+# ComTek
+Not much is known about this entity/organisation. What we do know is:
+* comtek.life was the first website found for them. This had hidden files relating to *Heartbeat*, the second single from *Heroes*. It now redirects to the presave information
+* comtekenterprises.org was the second website discovered. This currently has a gif for a homepage, and hidden files relating to *Avalanche*, an as-yet unreleased song from *Heroes*
+* A YouTube [channel](https://www.youtube.com/channel/UCKlTmO6Y4rtPxcVCLDnEIWQ) was discovered, currently one unlisted video is known
