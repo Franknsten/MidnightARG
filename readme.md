@@ -365,6 +365,6 @@ Information in the video:
 ![Avalanche Spectogram](files/avalanche/avalanche_spectrum.jpg)
 # ComTek
 Not much is known about this entity/organisation. What we do know is:
-* comtek.life was the first website found for them. This had hidden files relating to *Heartbeat*, the second single from *Heroes*. It now redirects to the presave information
-* comtekenterprises.org was the second website discovered. This currently has a gif for a homepage, and hidden files relating to *Avalanche*, an as-yet unreleased song from *Heroes*
+* [comtek.life](comtek.life) was the first website found for them. This had hidden files relating to *Heartbeat*, the second single from *Heroes*. It now redirects to the presave information
+* [comtekenterprises.org](comtekenterprises.org) was the second website discovered. This currently has a gif for a homepage, and hidden files relating to *Avalanche*, an as-yet unreleased song from *Heroes*
 * A YouTube [channel](https://www.youtube.com/channel/UCKlTmO6Y4rtPxcVCLDnEIWQ) was discovered, currently one unlisted video is known
