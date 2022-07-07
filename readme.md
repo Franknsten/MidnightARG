@@ -36,13 +36,13 @@ Users viewed [website](https://183010165.com/) previously used for ARG.
 
 It had been updated, showing a Unix interface. The interface needed a specific update command to be entered to get the right output. 
 
-![Original home screen](monsters_first_home.jpg)
+![Original home screen](files/comtek_sites/monsters_first_home.jpg)
 
 `sudo apt full-upgrade -y`
 
 This command runs an update package that provides an error message
 
-![Updated home page](monsters_home_1.jpg)
+![Updated home page](files/comtek_sites/monsters_home_1.jpg)
 
 A riddle was provided
 ## First Riddle
@@ -56,7 +56,7 @@ There are two clues to the answer here
 
 Refers to the Change Your Heart Or Die vinyl record, which is blue, and has the word 'fire' etched into the center
 
-![CYHOD Vinyl Center](heart_fire.jpg)
+![CYHOD Vinyl Center](files/other/heart_fire.jpg)
 
 *Image courtesy of Discord user cpsedmonds*
 
@@ -79,7 +79,7 @@ Opening fire.mp4 in a text editor reveals metadata (information about the file)
 * Audio is `01_Golden Gate (Instrumental)_24bit_96kHz_Final_Master_3.18.22_LS_Edit.wav`
 *  `heroes-bg-notext.png` is referenced
 
-![Fire.mp4 metadata](fire_metadata.jpg)
+![Fire.mp4 metadata](files/other/fire_metadata.jpg)
 
 Golden Gate is a [song](https://www.youtube.com/watch?v=1UXLyW6N9LQ) by Tyler Lyle, and the audio in the video sounds like a synth cover of that. The Midnight has covered Lyles music before, with Brooklyn ([Lyle](https://www.youtube.com/watch?v=tg3YLGiDG9M), [The Midnight](https://www.youtube.com/watch?v=8Ey30-sYvuU)) and Lost & Found ([Lyle](https://www.youtube.com/watch?v=ZHhZPomMNlo), [The Midnight](https://www.youtube.com/watch?v=vDNG5AkNfcs)). The cover of Golden Gate* was included as a secret track in the *Change Your Heart Or Die* [vinyl release](https://www.reddit.com/r/TheMidnight/comments/utuvmq/not_sure_if_this_is_common_knowledge_yet_but/)
 
@@ -88,27 +88,27 @@ heroes-bg-notext.png is not a known reference like this, but is suspected to be 
 # Phase II - June 1 2022 
 The old website has an update available, and the text has changed slightly from 'New Release' to 'Hot Fix'
 
-![Monsters page prompting to run update](monsters_update.jpg)
+![Monsters page prompting to run update](files/comtek_sites/monsters_update.jpg)
 
 This is a [unix command](https://www.freecodecamp.org/news/sudo-apt-get-update-vs-upgrade-what-is-the-difference/) used to upgrade packages on a system
 
 Running the command takes you to [a new website](comtek.life) advertising an unknown upcoming release by The Midnight
 
-![Comtek Life homepage](comtek_home.jpg)
+![Comtek Life homepage](files/comtek_sites/comtek_home.jpg)
 
 Several things were found in here
 ## Comtek Homepage Info
 ### Main Gif
 The gif on the page is seen glitching stylistically
-![Glitching Gif](gifshuffle_talian_holds_the_key.gif)
+![Glitching Gif](files/comtek_sites/gifshuffle_talian_holds_the_key.gif)
 
 Using the 'inspect element' feature of the browser, the name of this gif can be seen as `gifshuffle_talian_holds_the_key.gif`
 
-![Gif in inspect element](gif_name.jpg)
+![Gif in inspect element](files/comtek_sites/gif_name.jpg)
 
 Talian here is a reference to Discord user Talian, who was the first to find the metadata in fire.mp4 and alert the chat. The team behind the ARG are known to monitor the Discord, explaining the inclusion of this.
 
-![Talian finds the metadata](talian_discord_message.jpg)
+![Talian finds the metadata](files/other/talian_discord_message.jpg)
 
 Gifshuffle is the name of a command line utility, included in Ubuntu (more info [here](http://manpages.ubuntu.com/manpages/bionic/man1/gifshuffle.1.html)). Gifshuffle is used to hide messages in gif files, and the inclusion of it in the name here suggests it needs to be used to extract the message.
 
@@ -118,45 +118,45 @@ Running the command
 `gifshuffle -C -p "heroes-bg-notext.png" gifshuffle_talian_holds_the_key.gif` (you need to download the file from the website, then run this command in the same directory as where it is saved) reveals the hidden message
 >/heroes/48-65-61-72-74-62-65-61-74.png
 
-Adding this to the comtek.life [URL](comtek.life//heroes/48-65-61-72-74-62-65-61-74.png) provides you with an image
+Adding this to the comtek.life [URL](comtek.life/heroes/48-65-61-72-74-62-65-61-74.png) provides you with an image
 
-<img src="48-65-61-72-74-62-65-61-74.png" height="250px" width="250px"></img>
+<img src="files/heartbeat/48-65-61-72-74-62-65-61-74.png" height="250px" width="250px"></img>
 
 ### Decyphering Image
 By inverting the colours on this image and rotating 180 degrees, it becomes slightly more legible, and 'heart beat' can be slightly made out
 
-<img src="48-65-61-72-74-62-65-61-74_inverted.png"  height="250px" width="250px"></img>
+<img src="files/heartbeat/48-65-61-72-74-62-65-61-74_inverted.png"  height="250px" width="250px"></img>
 
 The name, 48-65-61-72-74-62-65-61-74, is also a hexadecmial string that translates to 'heartbeat'. This decoding can be done using online [tools](http://www.unit-conversion.info/texttools/hexadecimal/).
 
-![Decoding the hex](hex_decode.jpg)
+![Decoding the hex](files/heartbeat/hex_decode.jpg)
 
 The LostBoy account tweeted a hint that something was yet to be discovered
 
-![LostBoy hint](lostboy_lookCloser.jpg)
+![LostBoy hint](files/twitter/lostboy_lookCloser.jpg)
 
 Tyler Lyle tweeted a clue out to assist in the next step of this clue
 
-![Tyler Tweeting](tyler_clue.jpg)
+![Tyler Tweeting](files/twitter/tyler_clue.jpg)
 
 The use of 'stego' here is a hint at 'steganography', the process of hiding content within other content, much like the Gifshuffle tool earlier. 
 
 [OpenStego](https://www.openstego.com/) is a free tool available to extract data hidden in images, but it needs a password. The text in the image, as well as the filename, are both 'heartbeat' which is worth trying
 
-![Using openStego](openstego.jpg)
+![Using openStego](files/other/openstego.jpg)
 
 
 This succeeds, and reveals the hidden image; a full resolution copy of the 'Heartbeat' image. This will be saved to the output folder, the desktop in this case.
 
-<img src="Heartbeat.jpg" height="250px" width="250px"></img>
+<img src="files/heartbeat/Heartbeat.jpg" height="250px" width="250px"></img>
 
 LostBoy then replies to their earlier tweet, confirming this was solved
 
-![LostBoy confirmation](lostboy_nowYouSee.jpg)
+![LostBoy confirmation](files/twitter/lostboy_nowYouSee.jpg)
 
 ### Presave Link
 By clicking the Presave bar in the middle of the screen, a long string is output to the browser console. This can be viewed through inspect element
-![Console Output](console_output.jpg)
+![Console Output](files/comtek_sites/console_output.jpg)
 
 The text of this is
 > l1GIk5WYgU3b5BicvZkCgKManV3buVGIlZ3bsBycpBSZyVGaUpAoCfmbp92ZgAXZltGI0NXdKpAoCTXZ5BSZu9GZgQ3buBSZylJgiX3bZpAoCTXYlJGdyFWZoBic19WegwWZlZGIuF2YgU3b5BiZJpgCl1GIk5WYgU3b5BicvZkCgKManV3buVGIlZ3bsBycpBSZyVGaUpAoCfmbptmcvdHIzlJgiTXagwyc0JXdoBCdpBiZJpAoCXmYgQXmAKubhNGI19WWKAqw0VWegUmbvRGI09mbgUmcZCo419WWKQXYlJGdyFWZoBic19WegwWZlZGIuF2YgU3b5BiZJpgCgK8ajFmYg82ZgQXmAKubhNGIldHIlNXdhNGmAKOIn5WavdGIwVWZLpwajFmYg82ZgQXmAKubhNGIldHIlNXdhNGmAKOIn5WavdGIwVWZLpwajFmYg82ZgQXmAKubhNGIldHIlNXdhNGmAKOIn5WavdGIwVWZLpgCodWdv5WZgUmdvxGIzlGIlJXZoRlCgKMZlVmbgIXdvlHIn5WayJGIk5WYgUWbvNEIk92bsZGIlhGdgMHduF2dgQXYoRHI0JXYlhGI0JXZzVGZgknclZXRKAqwuV3cgEGI0NXZndWdzByc39GZhh2cgIXdvBCbsFkCgKMLzVHIm9GI0V3bgUGZh1GIzlGIkxmcvdHIlhGdgYWSKoQZtBCZuFGI19WegI3bGpAoCj2Z19mblBSZ29GbgMXagUmclhGVKAqwn5WavdGIwVWZrBCdzVnSKAqw0VWegUmbvRGI09mbgUmcZCo419WWKAqw0FWZiRnchVGagIXdvlHIsVWZmBibhNGI19WegYWSKoQZtBCZuFGI19WegI3bGpAoCj2Z19mblBSZ29GbgMXagUmclhGVKAqwn5WarJ3b3BycZCo40lGIsMHdyVHagQXagYWSKAqwlJGI0lJgi7WYjBSdvllCgKMdllHIl52bkBCdv5GIlJXmAKedvllCgKMdhVmY0JXYlhGIyV3b5BCblVmZg4WYjBSdvlHImlkCKAqwlRWayBSYgY2bgwGblhGIhBCbslGdzBycpBib39GZgcmbp12bDpAoCnXY3BiclhGdpVkCgKcesZGIuF2YgkXZoRHIlZXZpxWZiBycs92bGpwcl1Wa0VWbvNHI5F2dhByasF2dg8GdgMHduF2dgkHZvJWeyVmdFpgCgKManV3buVGIlZ3bsBycpBSZyVGa0BSZtByb0BiZv9mcwBSZoRHIlJXmAKedvllCwV3YgIXdvlHIkVmchh2cgU3b5Biblh2dgQWYlRGI5xmchVmbgMXY3BSSKAqwl52b55WYg4WagU2ZuFGajBibhNGI0JXYlhGIhBiblhGVKAqwlZ3bsBiZvBCd19GIlRWYtBycpBCZsJ3b3BSZoRHImlkCKAqwl1GIk5WYgU3b5BicvZkCgKManV3buVGIlZ3bsBycpBSZyVGaUpAoCfmbptmcvdHIzlJgiTXagwyc0JXdoBCdpBiZJpAoCXmYgQXmAKubhNGI19WWKAqw0VWegUmbvRGI09mbgUmcZCo419WWKAqw0FWZiRnchVGagIXdvlHIsVWZmBibhNGI19WegYWSKoQZklmcgEGIm9GIsxWZoBSYgwGbpR3cgMXag42dvRGIn5Wat92QKAqwskXY3BiclhGdpVkC5xmZg4WYjBSelhGdgUmdllGblJGIl12bTpwcl1Wa0VWbvNHI5F2dhByasF2dg8GdgMHduF2dgkHZvJWeyVmdFpgCgKManV3buVGIlZ3bsBycpBSZyVGa0BCd19GIuVncgQXmAKubvdHI19WWKAXdgUWbgU2c1BibhNGI19WegkHdw1WZgUmcZCo419Weg4WZodlCl52bkBCdZCo4uNXagQXagQXYoRHIm92byBHIzlGIulWYwBSZoRHIuVGaUpAoCXmdvxGIm9GI0V3bgUGZh1GIzlGIkxmcvdHIlhGdgYWS
@@ -213,7 +213,7 @@ Decoding the text reveals song lyrics
 
 >Keep going ‘cause we can’t go back\
 >Keep going ‘cause we can’t go back\
->Keep going ‘cause we can’t go back\
+>Keep going ‘cause we can’t go back
 
 >If you can feel your heartbeat\
 >You’re not done yet\
@@ -256,42 +256,42 @@ It is unclear what, if any, significance these numbers have at this point
 ### Homepage Update
 The Comtek.life homepage has been updated, featuring a new version number and a new release date. The new date is for July 6th, and the version number is a youtube video ID
 
-![updated home](comtek_life_update.jpg)
+![updated home](files/comtek_sites/comtek_life_update.jpg)
 
 ### YouTube Video
 The ID can be added to youtube.com/watch?v= to view
 
-[![comtekvideo](comtek_video.jpg)](https://www.youtube.com/watch?v=FpskTb9RiE4)
+[![comtekvideo](files/comtek_sites/comtek_video.jpg)](https://www.youtube.com/watch?v=FpskTb9RiE4)
 The name, 01000001 01110110 01100001 01101100 01100001 01101110 01100011 01101000 01100101, can be decoded from binary to read 'Avalanche'
 
-![Avalanche decode](binary_avalanche.jpg)
+![Avalanche decode](files/avalanche/binary_avalanche.jpg)
 
 Extracting the audio from the video and viewing it through a spectrogram, you can do this with Audacity, reveals the message 'Who Are Comtek Enterprises"
 
-![Spectogram](comtek_spectogram.jpg)
+![Spectogram](files/comtek_sites/comtek_spectogram.jpg)
 
 Following this, LostBoy tweets asking to know more about this 'organisation'
 
-![lostboy tweets](lostboy_comtek.jpg)
+![lostboy tweets](files/twitter/lostboy_comtek.jpg)
 
 the '.org' top-level domain (TLD) is used for organisations. Using this, the website 'comtekenterprises.org' is found
 
 ### ComtekEnterprises Website
 The homepage is just a gif
 
-![comtek homepage](COMTEK_ENTERPRISES.gif)
+![comtek homepage](files/comtek_sites/COMTEK_ENTERPRISES.gif)
 
 Inspecting the page, in a browser like chrome, reveals a comment.
 
-![comment on homepage](comtek_comment.jpg)
+![comment on homepage](files/comtek_sites/comtek_comment.jpg)
 
 Adding this to the URL gives an [image](https://comtekenterprises.org/heroes/avalanche.jpg), avalanche.jpg
 
-<img src="avalanche.jpg" height="250px" width="250px"></img>
+<img src="files/avalanche/avalanche.jpg" height="250px" width="250px"></img>
 
 The bottom right corner of the image holds a QR code
 
-![QR Code](avalanche_qr.jpg)
+![QR Code](files/avalanche/avalanche_qr.jpg)
 
 When scanned, this gives the URL https://comtekenterprises.org/6176616C616E636865/avalanche_intro.enc
 
@@ -300,11 +300,11 @@ The directory used here, 6176616C616E636865, is the Hexadecmial equivalent of 'a
 ### Avalanche_Intro.enc
 This file is encrypted. Running the `file` utility on it, in Linux, reveals it is an OpenSSL file with salted password
 
-![File Output](avalance_intro_file_check.jpg)
+![File Output](files/avalanche/avalance_intro_file_check.jpg)
 
 OpenSSL requires a key to decode files. LostBoy [tweets](https://twitter.com/lost_boy84/status/1542880355136311301) a hint about 'staying on the one channel'
 
-![Channel Hint](lostboy_channel.jpg)
+![Channel Hint](files/twitter/lostboy_channel.jpg)
 
 This refers to the channel numbers seen in the previous stage, in the Hearbeat video
 
@@ -327,26 +327,42 @@ A breakdown of this is:\
 
 Running this command gives no errors. 
 
-![First decrypt](avalanche_decrypt_1.jpg)
+![First decrypt](files/avalanche/avalanche_decrypt_1.jpg)
 
 Running `file` on the output reveals it has MP3 header information
 
-![File Output](avalanche_decrypt_2.jpg)
+![File Output](files/avalanche/avalanche_decrypt_2.jpg)
 
 The .mp3 extension can be added to view the song properties and play it in your choice of MP3 Player
 
-![Avalanche properties](avalanche_properties.jpg)
+![Avalanche properties](files/avalanche/avalanche_properties.jpg)
 
 # Misc
 ## Hidden Message
 The album artwork has a secret code visible in it, which was decoded to 'see you on this other side'. 
 
-![Hidden Message](heroes_hidden_message.png)
+![Hidden Message](files/other/heroes_hidden_message.png)
 
 This has yet to come into play, but LostBoy responded to it when tweeted at
 
-![LostBoy Tweeting](lostboy_hidden_message_tweet.jpg)
+![LostBoy Tweeting](files/twitter/lostboy_hidden_message_tweet.jpg)
 
+## Avalanche Release
+The release of Avalanche is teased with a video in a [tweet](https://twitter.com/TheMidnightLA/status/1544353663484715010), and subsequent video posted to [YouTube](https://www.youtube.com/watch?v=mg0RAEZ-Md0)
+
+[![Avalanche Thumbnail](files/avalanche/avalanche_thumb.png)](https://www.youtube.com/watch?v=mg0RAEZ-Md0)
+
+Information in the video:
+* CH03
+* 'PLAY SLP' -> Super Long Play or Slow Play on VHS players
+* Date is 06/21/88 (June 21st 1988)
+* Final runtime in the video is 4:32:02
+* 'Sail On In My Memory' appears before the video plays
+* Video shows an ocean scene at sun up/down
+* Various colour distortions, getting more intense as the video goes on
+* Video ID is mg0RAEZ-Md0
+* A spectogram of the audio contains nothing of note
+![Avalanche Spectogram](files/avalanche/avalanche_spectrum.jpg)
 # ComTek
 Not much is known about this entity/organisation. What we do know is:
 * comtek.life was the first website found for them. This had hidden files relating to *Heartbeat*, the second single from *Heroes*. It now redirects to the presave information
