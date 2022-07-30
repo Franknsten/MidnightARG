@@ -8,16 +8,16 @@
 * [Miscelaneous Information](#misc)
 * [ComTek Information](#comtek)
 ## Solved
-Phase I
+Phase I - MonstersOS
 - [x] [Solve riddle on old *Monsters* Interface](#first-riddle) 
 - [x] [Find metadata of Fire.mp4](#firemp4)
 
-Phase II
+Phase II - ComtekOS
 - [x] [Extract message from gifshuffle_talia_holds_the_key.gif](#main-gif)
 - [x] [Extract image from 48-65-61-72-74-62-65-61-74.png](#decyphering-image)
 - [x] [Decrypt console output to view song lyrics](#presave-link)
 
-Phase III
+Phase III - ComtekEnterprises
 - [x] [Find YouTube Video](#youtube-video)
 - [x] [Find Avalanche.jpg](#comtekenterprises-website)
 - [x] [Find and decrypt avalanche_intro.enc](#avalancheintroenc)
@@ -27,6 +27,8 @@ Phase III
 - [ ] Significance of 05.08.2022 (August 5th) mentioned in MONSTERS OS page
 - [ ] [Album Artwork code](#hidden-message)
 - [ ] Whether or not 'sail on in my memory' from [avalanche.jpg](#comtekenterprises-website) is anything of value
+- [ ] If there is a meaningful order to the BFL filenames
+- [ ] The missing 2 rows?
 
 
 # PHASE I
@@ -297,7 +299,7 @@ When scanned, this gives the URL https://comtekenterprises.org/6176616C616E63686
 
 The directory used here, 6176616C616E636865, is the Hexadecmial equivalent of 'avalanche'
 
-### Avalanche_Intro.enc
+#### Avalanche_Intro.enc
 This file is encrypted. Running the `file` utility on it, in Linux, reveals it is an OpenSSL file with salted password
 
 ![File Output](files/avalanche/avalance_intro_file_check.jpg)
@@ -336,6 +338,27 @@ Running `file` on the output reveals it has MP3 header information
 The .mp3 extension can be added to view the song properties and play it in your choice of MP3 Player
 
 ![Avalanche properties](files/avalanche/avalanche_properties.jpg)
+
+#### bfl.zip
+On July 29th, the homepage was updated, with the avalanche comment replaced with the path for a zip file, bfl.zip
+
+![New Comment](/files/bfl/comment.jpg)
+
+This file can be opened, revealing 231 image files and 231 mp3 files.
+
+Each of the images is a 2796x12 pixel strip. Each of the mp3s is a small snippet of audio. The file names appear random, 3 characters of numbers, uppercase letters, and lowercase letters. Each png has a corresponding mp3, suggesting they are related. Each mp3 has metadata with the name of 'Brooklyn, Friday, Love (Instrumental)'
+
+By *painstakingly* assembling the strips like a sadistic jigsaw puzzle, the cover art for 'Brooklyn, Friday, Love' is revealed, seemingly with 2 rows missing. Image courtesy of Discord user MysteryPotatoGuy.
+
+![BFL Cover](/files/bfl/cover.png)
+
+The order of the pngs can then be used to combine the mp3s to get the final audio track
+
+At this time, the LostBoy twitter account was updated to have the ComtekEnterprises image as a banner
+![Banner Update](/files/twitter/bannerUpdate.jpg)
+
+
+**TODO: GET LSIT OF FILES AND FFMPEG COMMAND**
 
 # Misc
 ## Hidden Message
