@@ -354,6 +354,12 @@ By *painstakingly* assembling the strips like a sadistic jigsaw puzzle, the cove
 
 The order of the pngs can then be used to combine the mp3s to get the final audio track
 
+<video width="750px" src="https://user-images.githubusercontent.com/6541033/182004971-2f7a61a1-7720-42d6-9af2-110a33fd815a.mp4" controls></video>
+
+*Note*: I have filled in the missing rows using Photoshop for this video
+
+
+
 At this time, the LostBoy twitter account was updated to have the ComtekEnterprises image as a banner
 ![Banner Update](/files/twitter/bannerUpdate.jpg)
 
