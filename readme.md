@@ -366,6 +366,109 @@ At this time, the LostBoy twitter account was updated to have the ComtekEnterpri
 
 **TODO: GET LSIT OF FILES AND FFMPEG COMMAND**
 
+## Phase IV
+This phase started on August 24th and contains a series of YouTube videos with characters hidden in spectrograms
+### Videos
+#### 1 - UMae9o
+
+The comtek.life website has been updated with a new video ID
+
+![Comtek Update](/files/comtek_sites/comteklife_id.jpg)
+
+    tPy3swBXYLc
+
+Which can be added to the standard YouTube video URL to get
+
+    https://www.youtube.com/watch?v=tPy3swBXYLc
+
+
+This video, when viewed as a spectrogram, reveals
+
+![Spectro 1](/files/hwb/spectro_1.jpg)
+
+    stu3
+
+The description for this video provides a link
+
+    https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbG5SczlaaERKMFMyakZwQm8wNWQ0SUVMMmRfQXxBQ3Jtc0trSnNKdWVqNElVRWE2OWtubS1PV29xZVJWdzR1ZURMalh4SVpRSEFmV3dUNllLOF9HaVcwalVwdTBPMy1qSjBUWUpfUThMejNuQ3ZQWkg3dmZhenhEcXExUG01UHMyRGdkUllfdzR1Z1JmYzFVUDNvbw&q=https%3A%2F%2Fcomtekenterprises.org%2F786F666569676874%2Fhwb.data&v=tPy3swBXYLc
+
+Which downloads a file, hwb.dat, from the comtek enterprises website (see below)
+
+#### 2 - Xaeng9
+Lostboy tweets a link to an unlisted [YouTube video](https://www.youtube.com/watch?v=44OSF1xWQfI) on the Comtek channel
+
+![Tweet](/files/twitter/lostboy_youtube.jpg)
+
+This video, when viewed as a spectrogram, reveals
+
+![Spectro 2](/files/hwb/spectro2.jpg)
+
+    hujo
+
+#### 3 - theeP2
+Following this, viewing the Comtek youtube channel homepage reveals a third video is available
+
+    https://www.youtube.com/watch?v=vSzdPt2_mgg
+
+Viewing this as a spectrogram reveals
+
+![Spectro 3](/files/hwb/spectro3.jpg)
+
+    tuwr
+
+#### 4 - Eijah0
+Viewing the 'About' section of the Comtek channel provides a link to a fourth video
+
+    https://youtu.be/lLWfltAyrck
+
+Which when viewed as a spectrogram reveals
+
+![Spectro 4](/files/hwb/spectro5.jpg)
+
+    frlf
+
+#### 5 - aiP8er
+The 'links' section of the Comtek channel provides a link titled "???" which directs to a fifth video
+
+    https://www.youtube.com/watch?v=wPUDg9Pf2jo
+
+The spectrogram for this video reveals
+
+![Spectro 5](/files/hwb/spectro4.jpg)
+
+    asto
+
+### hwb.dat
+#### Tech Info
+The URL
+
+    https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbG5SczlaaERKMFMyakZwQm8wNWQ0SUVMMmRfQXxBQ3Jtc0trSnNKdWVqNElVRWE2OWtubS1PV29xZVJWdzR1ZURMalh4SVpRSEFmV3dUNllLOF9HaVcwalVwdTBPMy1qSjBUWUpfUThMejNuQ3ZQWkg3dmZhenhEcXExUG01UHMyRGdkUllfdzR1Z1JmYzFVUDNvbw&q=https%3A%2F%2Fcomtekenterprises.org%2F786F666569676874%2Fhwb.data&v=tPy3swBXYLc
+
+Contains mostly technical aspects which are probably irrelevant. The core part is 
+
+    q=https%3A%2F%2Fcomtekenterprises.org%2F786F666569676874%2Fhwb.data
+
+Where the location for the link lives
+
+This contains some formatting, the %2F for example is a way of representing the forward slash
+
+##### Game Info
+The directory, named in hexadecimal as always, is 
+
+    786F666569676874
+
+Which decodes to readable text as
+
+    xofeight
+
+It is unclear what this refers to
+
+The file itself is an encrypted data file, like what was given in the previous stage.
+
+
+
+
+
 # Misc
 ## Hidden Message
 The album artwork has a secret code visible in it, which was decoded to 'see you on this other side'. 
@@ -395,5 +498,5 @@ Information in the video:
 # ComTek
 Not much is known about this entity/organisation. What we do know is:
 * [comtek.life](comtek.life) was the first website found for them. This had hidden files relating to *Heartbeat*, the second single from *Heroes*. It now redirects to the presave information
-* [comtekenterprises.org](comtekenterprises.org) was the second website discovered. This currently has a gif for a homepage, and hidden files relating to *Avalanche*, an as-yet unreleased song from *Heroes*
-* A YouTube [channel](https://www.youtube.com/channel/UCKlTmO6Y4rtPxcVCLDnEIWQ) was discovered, currently one unlisted video is known
+* [comtekenterprises.org](comtekenterprises.org) was the second website discovered. This currently has a gif for a homepage, and hidden files relating to *Brooklyn, Friday, Love*, a released song from *Heroes*. The source code has been used to provide files at various stages thorughout the ARG
+* A YouTube [channel](https://www.youtube.com/channel/UCKlTmO6Y4rtPxcVCLDnEIWQ) was discovered, which hosts a series of unlisted videos and one public video
