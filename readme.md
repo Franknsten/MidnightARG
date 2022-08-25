@@ -368,6 +368,8 @@ At this time, the LostBoy twitter account was updated to have the ComtekEnterpri
 
 ## Phase IV
 This phase started on August 24th and contains a series of YouTube videos with characters hidden in spectrograms
+
+The videos appear to be the artwork for the suprise release single 'Heart Worth Breaking', with various glitch effects
 ### Videos
 #### 1 - UMae9o
 
@@ -392,7 +394,7 @@ The description for this video provides a link
 
     https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbG5SczlaaERKMFMyakZwQm8wNWQ0SUVMMmRfQXxBQ3Jtc0trSnNKdWVqNElVRWE2OWtubS1PV29xZVJWdzR1ZURMalh4SVpRSEFmV3dUNllLOF9HaVcwalVwdTBPMy1qSjBUWUpfUThMejNuQ3ZQWkg3dmZhenhEcXExUG01UHMyRGdkUllfdzR1Z1JmYzFVUDNvbw&q=https%3A%2F%2Fcomtekenterprises.org%2F786F666569676874%2Fhwb.data&v=tPy3swBXYLc
 
-Which downloads a file, hwb.dat, from the comtek enterprises website (see below)
+Which downloads a file, hwb.data, from the comtek enterprises website (see below)
 
 #### 2 - Xaeng9
 Lostboy tweets a link to an unlisted [YouTube video](https://www.youtube.com/watch?v=44OSF1xWQfI) on the Comtek channel
@@ -438,7 +440,7 @@ The spectrogram for this video reveals
 
     asto
 
-### hwb.dat
+### hwb.data
 #### Tech Info
 The URL
 
