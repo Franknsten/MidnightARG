@@ -450,7 +450,45 @@ The spectrogram for this video reveals
     TODO
 
     gitu
+
+#### 7 - ieCah7
+Viewing the developer console of The Mindights [website](https://themidnightofficial.com/) provides a youtube link in the console output
+
+![Console Output](files/hwb/console.jpg)
+
+    https://www.youtube.com/watch?v=Kto3QRV0QiY
+
+The spectrogram of this video reveals
+
+TODO
+
+    uguc
+
+#### 8 - aix0lb
+The description for the previous video contains
+
+    ItYMCVZHXL0
+
+Which can be added to the Youtube URL to obtain another video
+
+    https://www.youtube.com/watch?v=ItYMCVZHXL0
+
+The spectrogram for this reveals
+
+TODO
+
+    rlhi
+
 ### hwb.data
+The encrypted data file can be decrypted using the information in the spectrograms
+
+The order is fairly random, but the permutations can be generated using a wwebsite like https://www.dcode.fr/permutations-generator to use elements in a list for the permutations
+
+The command to decrypt the file follows that in the BFL puzzle
+
+    openssl enc -aes-256-cbc -md md5 -d -in hwb.data -out hwb.mp3 -pass pass:stu3ugucrlhifrlfastohujogitutuwr
+
+This reveals an instrumental version of Heart Worth Breaking, which was released as a surprise single in early September.
 #### Tech Info
 The URL
 
