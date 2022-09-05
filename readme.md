@@ -440,6 +440,16 @@ The spectrogram for this video reveals
 
     asto
 
+#### 6 - eir4Oo
+It was discovered that the SoundCloud [page](https://soundcloud.com/themidnightofficial) for The Midnight contains a "???" link, to another YouTube video
+
+    https://www.youtube.com/watch?v=FtxkpUi0CCc
+
+The spectrogram for this video reveals
+
+    TODO
+
+    gitu
 ### hwb.data
 #### Tech Info
 The URL
